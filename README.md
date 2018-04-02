@@ -7,34 +7,8 @@ Requirements: Windows Vista, .NET 4.5 (or newer)
 
 Build command line:
 
-> %WINDIR%\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig
-> /nowarn:1701,1702,2008 /nostdlib+ /platform:anycpu32bitpreferred
-> /errorreport:prompt /warn:4 /define:TRACE /errorendlocation
-> /preferreduilang:ru-RU /highentropyva+
-> /reference:"%ProgramFiles(x86)%\Reference
-> Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll"
-> /reference:"%ProgramFiles(x86)%\Reference
-> Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll"
-> /reference:"%ProgramFiles(x86)%\Reference
-> Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll"
-> /reference:"%ProgramFiles(x86)%\Reference
-> Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll"
-> /reference:"%ProgramFiles(x86)%\Reference
-> Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll"
-> /reference:"%ProgramFiles(x86)%\Reference
-> Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Deployment.dll"
-> /reference:"%ProgramFiles(x86)%\Reference
-> Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll"
-> /reference:"%ProgramFiles(x86)%\Reference
-> Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll"
-> /reference:"%ProgramFiles(x86)%\Reference
-> Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll"
-> /reference:"%ProgramFiles(x86)%\Reference
-> Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll"
-> /reference:"%ProgramFiles(x86)%\Reference
-> Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll"
-> /debug:pdbonly /filealign:512 /optimize+ /out:SmallVolumeControl.exe
-> /subsystemversion:6.00 /target:winexe /utf8output Program.cs
+    %WINDIR%\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /platform:anycpu32bitpreferred /errorreport:prompt /warn:4 /define:TRACE /errorendlocation /preferreduilang:ru-RU /highentropyva+ /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Deployment.dll" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /reference:"%ProgramFiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll" /debug:pdbonly /filealign:512 /optimize+ /out:SmallVolumeControl.exe /subsystemversion:6.00 /target:winexe /utf8output Program.cs
+
 
 Configured via **Documents\volume.xml**:
 
